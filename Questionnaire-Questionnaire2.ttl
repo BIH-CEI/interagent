@@ -17,7 +17,7 @@
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:title [ fhir:v "Schultergürtel"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-02-28T12:50:40+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-02-28T12:55:15+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Charité"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Charité" ] ;

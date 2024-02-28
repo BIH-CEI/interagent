@@ -6,7 +6,7 @@
   "status" : "draft",
   "package-id" : "interagent",
   "ig-ver" : "0.1.0",
-  "date" : "Wed, 28 Feb, 2024 12:50:40 +0000",
+  "date" : "Wed, 28 Feb, 2024 12:55:15 +0000",
   "errs" : 10,
   "warnings" : 10,
   "hints" : 8,
@@ -14,5 +14,5 @@
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 1045625968
+  "maxMemory" : 760320584
 }
