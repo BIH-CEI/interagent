@@ -10,12 +10,12 @@
   fhir:id [ fhir:v "InteragentActivityDefinition2"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ActivityDefinition</b><a name=\"InteragentActivityDefinition2\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ActivityDefinition &quot;InteragentActivityDefinition2&quot; </p></div><p><b>url</b>: <code>https://gb-best-media.charite.de/ActivityDefinition/InteragentActivityDefinition2</code></p><p><b>version</b>: 0.1.0</p><p><b>status</b>: draft</p><p><b>date</b>: 2024-02-28 13:47:23+0000</p><p><b>publisher</b>: Charité</p><p><b>contact</b>: Charité: <a href=\"https://www.charite.de/\">https://www.charite.de/</a></p><p><b>code</b>: Video Media <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (umls#C3463807)</span></p><p><b>intent</b>: proposal</p></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ActivityDefinition</b><a name=\"InteragentActivityDefinition2\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ActivityDefinition &quot;InteragentActivityDefinition2&quot; </p></div><p><b>url</b>: <code>https://gb-best-media.charite.de/ActivityDefinition/InteragentActivityDefinition2</code></p><p><b>version</b>: 0.1.0</p><p><b>status</b>: draft</p><p><b>date</b>: 2024-02-28 14:06:11+0000</p><p><b>publisher</b>: Charité</p><p><b>contact</b>: Charité: <a href=\"https://www.charite.de/\">https://www.charite.de/</a></p><p><b>code</b>: Video Media <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (umls#C3463807)</span></p><p><b>intent</b>: proposal</p></div>"
   ] ; # 
   fhir:url [ fhir:v "https://gb-best-media.charite.de/ActivityDefinition/InteragentActivityDefinition2"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-02-28T13:47:23+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-02-28T14:06:11+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Charité"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Charité" ] ;

@@ -3,7 +3,7 @@ Interagent : Validation Results
 
 err = 10, warn = 10, info = 8
 IG Publisher Version: 1.6.0
-Generated Wed Feb 28 13:47:53 UTC 2024. FHIR version 4.0.1 for interagent#0.1.0 (canonical = https://gb-best-media.charite.de)
+Generated Wed Feb 28 14:06:43 UTC 2024. FHIR version 4.0.1 for interagent#0.1.0 (canonical = https://gb-best-media.charite.de)
  Build Errors : 5 / 4 / 0
  /github/workspace/fsh-generated/resources/ActivityDefinition-InteragentActivityDefinition1 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ActivityDefinition-InteragentActivityDefinition2 : 0 / 0 / 2
