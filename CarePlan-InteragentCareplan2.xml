@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CarePlan xmlns="http://hl7.org/fhir">
+  <id value="InteragentCareplan2"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: CarePlan</b><a name="InteragentCareplan2"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource CarePlan &quot;InteragentCareplan2&quot; </p></div><p><b>partOf</b>: <a href="CarePlan-InteragentMasterCareplan.html">CarePlan/InteragentMasterCareplan</a></p><p><b>status</b>: draft</p><p><b>intent</b>: option</p><p><b>subject</b>: <a href="StudentGroup">StudentGroup</a></p><p><b>goal</b>: </p><ul><li><a href="Goal-InteragentGoalMaster.html">Goal/InteragentGoalMaster</a></li><li><a href="Goal-InteragentGoalActivity2.html">Goal/InteragentGoalActivity2</a></li></ul><blockquote><p><b>activity</b></p><h3>Details</h3><table class="grid"><tr><td style="display: none">-</td><td><b>InstantiatesCanonical</b></td><td><b>Goal</b></td><td><b>Status</b></td></tr><tr><td style="display: none">*</td><td><a href="http://example.org/fhir/Questionnaire2">http://example.org/fhir/Questionnaire2</a></td><td><a href="Goal-InteragentGoalActivity2.html">Goal/InteragentGoalActivity2</a></td><td>scheduled</td></tr></table></blockquote></div>
+  </text>
+  <partOf>
+    <reference value="CarePlan/InteragentMasterCareplan"/>
+  </partOf>
+  <status value="draft"/>
+  <intent value="option"/>
+  <subject>
+    <reference value="StudentGroup"/>
+  </subject>
+  <goal>
+    <reference value="Goal/InteragentGoalMaster"/>
+  </goal>
+  <goal>
+    <reference value="Goal/InteragentGoalActivity2"/>
+  </goal>
+  <activity>
+    <detail>
+      <instantiatesCanonical value="http://example.org/fhir/Questionnaire2"/>
+      <goal>
+        <reference value="Goal/InteragentGoalActivity2"/>
+      </goal>
+      <status value="scheduled"/>
+    </detail>
+  </activity>
+</CarePlan>

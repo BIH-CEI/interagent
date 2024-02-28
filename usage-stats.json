@@ -1,0 +1,49 @@
+{
+  "package": "interagent",
+  "version": "0.1.0",
+  "fhirVersion": "4.0.1",
+  "extensions": [
+    {
+      "url": "https://gb-best-media.charite.de/StructureDefinition/correct-answers",
+      "title": "Correct Answers",
+      "types": [
+        "Reference"
+      ]
+    }
+  ],
+  "profiles": {},
+  "usage": {
+    "http://hl7.org/fhir/StructureDefinition/ordinalValue": [
+      "Goal.description.coding",
+      "Observation.component.code.coding",
+      "Questionnaire.code",
+      "Questionnaire.item.answerOption",
+      "Questionnaire.item.code"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl": [
+      "Questionnaire.item.item"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name": [
+      "ImplementationGuide.definition.page",
+      "ImplementationGuide.definition.page.page"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment": [
+      "ImplementationGuide.dependsOn"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "https://gb-best-media.charite.de/StructureDefinition/correct-answers": [
+      "Questionnaire"
+    ]
+  }
+}

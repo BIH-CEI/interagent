@@ -1,0 +1,28 @@
+{
+  "resourceType" : "CarePlan",
+  "id" : "InteragentMasterCareplan",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: CarePlan</b><a name=\"InteragentMasterCareplan\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource CarePlan &quot;InteragentMasterCareplan&quot; </p></div><p><b>status</b>: draft</p><p><b>intent</b>: proposal</p><p><b>subject</b>: <a href=\"Group-StudentGroupExample.html\">Group/StudentGroupExample</a></p><p><b>goal</b>: <a href=\"Goal-InteragentGoalMaster.html\">Goal/InteragentGoalMaster</a></p><blockquote><p><b>activity</b></p><h3>Details</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>InstantiatesCanonical</b></td><td><b>Goal</b></td><td><b>Status</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"http://example.org/fhir/Task1\">http://example.org/fhir/Task1</a>, <a href=\"http://example.org/fhir/Task2\">http://example.org/fhir/Task2</a>, <a href=\"http://example.org/fhir/Questionnaire1\">http://example.org/fhir/Questionnaire1</a>, <a href=\"http://example.org/fhir/Questionnaire2\">http://example.org/fhir/Questionnaire2</a></td><td><a href=\"Goal-InteragentGoalActivity2.html\">Goal/InteragentGoalActivity2</a></td><td>scheduled</td></tr></table></blockquote></div>"
+  },
+  "status" : "draft",
+  "intent" : "proposal",
+  "subject" : {
+    "reference" : "Group/StudentGroupExample"
+  },
+  "goal" : [{
+    "reference" : "Goal/InteragentGoalMaster"
+  }],
+  "activity" : [{
+    "detail" : {
+      "instantiatesCanonical" : ["http://example.org/fhir/Task1",
+      "http://example.org/fhir/Task2",
+      "http://example.org/fhir/Questionnaire1",
+      "http://example.org/fhir/Questionnaire2"],
+      "goal" : [{
+        "reference" : "Goal/InteragentGoalActivity2"
+      }],
+      "status" : "scheduled"
+    }
+  }]
+}

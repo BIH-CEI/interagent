@@ -1,0 +1,42 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://gb-best-media.charite.de/Goal/InteragentGoalActivity2> a fhir:Goal ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "InteragentGoalActivity2"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Goal</b><a name=\"InteragentGoalActivity2\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Goal &quot;InteragentGoalActivity2&quot; </p></div><p><b>lifecycleStatus</b>: proposed</p><p><b>category</b>: Level 1 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#277733009)</span></p><p><b>description</b>: Acromioclavicular joint structure (body structure) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#85856004)</span></p><p><b>subject</b>: <a href=\"StudentGroup\">StudentGroup</a></p></div>"
+  ] ; # 
+  fhir:lifecycleStatus [ fhir:v "proposed"] ; # 
+  fhir:category ( [
+     fhir:coding ( [
+       a sct:277733009 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "277733009" ] ;
+       fhir:display [ fhir:v "Level 1" ]
+     ] )
+  ] ) ; # 
+  fhir:description [
+     fhir:coding ( [
+       a sct:85856004 ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/ordinalValue"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "0"^^xsd:decimal ]
+       ] ) ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "85856004" ] ;
+       fhir:display [ fhir:v "Acromioclavicular joint structure (body structure)" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:reference [ fhir:v "StudentGroup" ]
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

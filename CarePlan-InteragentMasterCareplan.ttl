@@ -1,0 +1,49 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://gb-best-media.charite.de/CarePlan/InteragentMasterCareplan> a fhir:CarePlan ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "InteragentMasterCareplan"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: CarePlan</b><a name=\"InteragentMasterCareplan\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource CarePlan &quot;InteragentMasterCareplan&quot; </p></div><p><b>status</b>: draft</p><p><b>intent</b>: proposal</p><p><b>subject</b>: <a href=\"Group-StudentGroupExample.html\">Group/StudentGroupExample</a></p><p><b>goal</b>: <a href=\"Goal-InteragentGoalMaster.html\">Goal/InteragentGoalMaster</a></p><blockquote><p><b>activity</b></p><h3>Details</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>InstantiatesCanonical</b></td><td><b>Goal</b></td><td><b>Status</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"http://example.org/fhir/Task1\">http://example.org/fhir/Task1</a>, <a href=\"http://example.org/fhir/Task2\">http://example.org/fhir/Task2</a>, <a href=\"http://example.org/fhir/Questionnaire1\">http://example.org/fhir/Questionnaire1</a>, <a href=\"http://example.org/fhir/Questionnaire2\">http://example.org/fhir/Questionnaire2</a></td><td><a href=\"Goal-InteragentGoalActivity2.html\">Goal/InteragentGoalActivity2</a></td><td>scheduled</td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:intent [ fhir:v "proposal"] ; # 
+  fhir:subject [
+     fhir:link <https://gb-best-media.charite.de/Group/StudentGroupExample> ;
+     fhir:reference [ fhir:v "Group/StudentGroupExample" ]
+  ] ; # 
+  fhir:goal ( [
+     fhir:link <https://gb-best-media.charite.de/Goal/InteragentGoalMaster> ;
+     fhir:reference [ fhir:v "Goal/InteragentGoalMaster" ]
+  ] ) ; # 
+  fhir:activity ( [
+     fhir:detail [
+       fhir:instantiatesCanonical ( [
+         fhir:v "http://example.org/fhir/Task1"^^xsd:anyURI ;
+         fhir:link <http://example.org/fhir/Task1>
+       ] [
+         fhir:v "http://example.org/fhir/Task2"^^xsd:anyURI ;
+         fhir:link <http://example.org/fhir/Task2>
+       ] [
+         fhir:v "http://example.org/fhir/Questionnaire1"^^xsd:anyURI ;
+         fhir:link <http://example.org/fhir/Questionnaire1>
+       ] [
+         fhir:v "http://example.org/fhir/Questionnaire2"^^xsd:anyURI ;
+         fhir:link <http://example.org/fhir/Questionnaire2>
+       ] ) ;
+       fhir:goal ( [
+         fhir:link <https://gb-best-media.charite.de/Goal/InteragentGoalActivity2> ;
+         fhir:reference [ fhir:v "Goal/InteragentGoalActivity2" ]
+       ] ) ;
+       fhir:status [ fhir:v "scheduled" ]
+     ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

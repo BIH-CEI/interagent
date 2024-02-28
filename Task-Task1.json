@@ -1,0 +1,14 @@
+{
+  "resourceType" : "Task",
+  "id" : "Task1",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Task</b><a name=\"Task1\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Task &quot;Task1&quot; </p></div><p><b>instantiatesCanonical</b>: <a href=\"ActivityDefinition-InteragentActivityDefinition1.html\">ActivityDefinition[https://gb-best-media.charite.de/ActivityDefinition/InteragentActivityDefinition1|0.1.0]</a></p><p><b>status</b>: draft</p><p><b>intent</b>: proposal</p><p><b>reasonReference</b>: <a href=\"Goal-InteragentGoalActivity1.html\">Goal/InteragentGoalActivity1</a></p></div>"
+  },
+  "instantiatesCanonical" : "https://gb-best-media.charite.de/ActivityDefinition/InteragentActivityDefinition1",
+  "status" : "draft",
+  "intent" : "proposal",
+  "reasonReference" : {
+    "reference" : "Goal/InteragentGoalActivity1"
+  }
+}

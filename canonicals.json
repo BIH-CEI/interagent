@@ -1,0 +1,40 @@
+[
+  {
+    "id" : "InteragentActivityDefinition1",
+    "type" : "ActivityDefinition",
+    "url" : "https://gb-best-media.charite.de/ActivityDefinition/InteragentActivityDefinition1",
+    "version" : "0.1.0"
+  },
+  {
+    "id" : "InteragentActivityDefinition2",
+    "type" : "ActivityDefinition",
+    "url" : "https://gb-best-media.charite.de/ActivityDefinition/InteragentActivityDefinition2",
+    "version" : "0.1.0"
+  },
+  {
+    "id" : "interagent",
+    "type" : "ImplementationGuide",
+    "url" : "https://gb-best-media.charite.de/ImplementationGuide/interagent",
+    "version" : "0.1.0",
+    "name" : "Interagent"
+  },
+  {
+    "id" : "Questionnaire1",
+    "type" : "Questionnaire",
+    "url" : "https://gb-best-media.charite.de/Questionnaire/Questionnaire1",
+    "version" : "0.1.0"
+  },
+  {
+    "id" : "Questionnaire2",
+    "type" : "Questionnaire",
+    "url" : "https://gb-best-media.charite.de/Questionnaire/Questionnaire2",
+    "version" : "0.1.0"
+  },
+  {
+    "id" : "correct-answers",
+    "type" : "StructureDefinition",
+    "url" : "https://gb-best-media.charite.de/StructureDefinition/correct-answers",
+    "version" : "0.1.0",
+    "name" : "CorrectAnswers"
+  }
+]
