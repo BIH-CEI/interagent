@@ -3,7 +3,7 @@
   "id" : "StudentGroupExample",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Group</b><a name=\"StudentGroupExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Group &quot;StudentGroupExample&quot; </p></div><p><b>type</b>: person</p><p><b>actual</b>: false</p></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Group</b><a name=\"StudentGroupExample\"> </a><a name=\"hcStudentGroupExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Group &quot;StudentGroupExample&quot; </p></div><p><b>type</b>: person</p><p><b>actual</b>: false</p></div>"
   },
   "type" : "person",
   "actual" : false

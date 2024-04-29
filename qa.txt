@@ -1,12 +1,12 @@
 Interagent : Validation Results
 =========================================
 
-err = 10, warn = 10, info = 8
-IG Publisher Version: 1.6.0
-Generated Wed Feb 28 14:06:43 UTC 2024. FHIR version 4.0.1 for interagent#0.1.0 (canonical = https://gb-best-media.charite.de)
+err = 10, warn = 10, info = 12
+IG Publisher Version: 1.6.6
+Generated Mon Apr 29 11:45:59 UTC 2024. FHIR version 4.0.1 for interagent#0.1.0 (canonical = https://gb-best-media.charite.de)
  Build Errors : 5 / 4 / 0
- /github/workspace/fsh-generated/resources/ActivityDefinition-InteragentActivityDefinition1 : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/ActivityDefinition-InteragentActivityDefinition2 : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/ActivityDefinition-InteragentActivityDefinition1 : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/ActivityDefinition-InteragentActivityDefinition2 : 0 / 0 / 3
  /github/workspace/fsh-generated/resources/CarePlan-InteragentCareplan1 : 2 / 0 / 1
  /github/workspace/fsh-generated/resources/CarePlan-InteragentCareplan2 : 2 / 0 / 1
  /github/workspace/fsh-generated/resources/CarePlan-InteragentMasterCareplan : 0 / 0 / 1
@@ -19,8 +19,8 @@ Generated Wed Feb 28 14:06:43 UTC 2024. FHIR version 4.0.1 for interagent#0.1.0 
  /github/workspace/fsh-generated/resources/Observation-InteragentObservationCompoundScore1 : 0 / 2 / 2
  /github/workspace/fsh-generated/resources/Observation-InteragentObservationCompoundScore2 : 0 / 2 / 2
  /github/workspace/fsh-generated/resources/Patient-StudentExample : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire1 : 0 / 0 / 2
- /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire2 : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire1 : 0 / 0 / 3
+ /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire2 : 0 / 0 / 3
  /github/workspace/fsh-generated/resources/QuestionnaireResponse-InteragentQuestionnaireResponse1 : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/QuestionnaireResponse-InteragentQuestionnaireResponse2 : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/StructureDefinition-correct-answers : 0 / 0 / 1
@@ -29,18 +29,20 @@ Generated Wed Feb 28 14:06:43 UTC 2024. FHIR version 4.0.1 for interagent#0.1.0 
  /github/workspace/fsh-generated/resources/Task-Task3 : 0 / 0 / 1
 </table>
 == n/a ==
-ERROR: /github/workspace/output/CarePlan-InteragentCareplan1.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 550: The link 'StudentGroup' for "StudentGroup" cannot be resolved
-ERROR: /github/workspace/output/CarePlan-InteragentCareplan2.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 550: The link 'StudentGroup' for "StudentGroup" cannot be resolved
-ERROR: /github/workspace/output/Goal-InteragentGoalActivity1.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 849: The link 'StudentGroup' for "StudentGroup" cannot be resolved
-ERROR: /github/workspace/output/Goal-InteragentGoalActivity2.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 857: The link 'StudentGroup' for "StudentGroup" cannot be resolved
-ERROR: /github/workspace/output/Goal-InteragentGoalMaster.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 650: The link 'StudentGroup' for "StudentGroup" cannot be resolved
+ERROR: /github/workspace/output/CarePlan-InteragentCareplan1.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 587: The link 'StudentGroup' for "StudentGroup" cannot be resolved
+ERROR: /github/workspace/output/CarePlan-InteragentCareplan2.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 587: The link 'StudentGroup' for "StudentGroup" cannot be resolved
+ERROR: /github/workspace/output/Goal-InteragentGoalActivity1.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 890: The link 'StudentGroup' for "StudentGroup" cannot be resolved
+ERROR: /github/workspace/output/Goal-InteragentGoalActivity2.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 898: The link 'StudentGroup' for "StudentGroup" cannot be resolved
+ERROR: /github/workspace/output/Goal-InteragentGoalMaster.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 688: The link 'StudentGroup' for "StudentGroup" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 == fsh-generated/resources/ActivityDefinition-InteragentActivityDefinition1.json ==
+INFORMATION: Resource: This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/ActivityDefinition-InteragentActivityDefinition2.json ==
 INFORMATION: ActivityDefinition/InteragentActivityDefinition2: ActivityDefinition.code.coding[0].system: A definition for CodeSystem 'http://terminology.hl7.org/NamingSystem/umls' could not be found, so the code cannot be validated
+INFORMATION: Resource: This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/CarePlan-InteragentCareplan1.json ==
 ERROR: CarePlan/InteragentCareplan1: CarePlan.subject: Unable to resolve resource with reference 'StudentGroup'
 ERROR: CarePlan.text.div: Hyperlink 'StudentGroup' at 'div/p/a' for 'StudentGroup' does not resolve
@@ -74,8 +76,10 @@ WARNING: Observation/InteragentObservationCompoundScore2: Observation: Best Prac
 == fsh-generated/resources/Patient-StudentExample.json ==
 == fsh-generated/resources/Questionnaire-Questionnaire1.json ==
 INFORMATION: Questionnaire/Questionnaire1: Questionnaire.item[0].item[0].extension[0].value.ofType(CodeableConcept): Reference to draft CodeSystem http://hl7.org/fhir/questionnaire-item-control|4.0.1
+INFORMATION: Resource: This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/Questionnaire-Questionnaire2.json ==
 INFORMATION: Questionnaire/Questionnaire2: Questionnaire.item[0].item[0].extension[0].value.ofType(CodeableConcept): Reference to draft CodeSystem http://hl7.org/fhir/questionnaire-item-control|4.0.1
+INFORMATION: Resource: This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/QuestionnaireResponse-InteragentQuestionnaireResponse1.json ==
 INFORMATION: QuestionnaireResponse/InteragentQuestionnaireResponse1: QuestionnaireResponse: No questionnaire is identified, so no validation can be performed against the base questionnaire
 == fsh-generated/resources/QuestionnaireResponse-InteragentQuestionnaireResponse2.json ==

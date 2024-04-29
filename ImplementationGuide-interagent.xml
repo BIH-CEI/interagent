@@ -9,7 +9,7 @@
   <version value="0.1.0"/>
   <name value="Interagent"/>
   <status value="draft"/>
-  <date value="2024-02-28T14:06:11+00:00"/>
+  <date value="2024-04-29T11:45:31+00:00"/>
   <publisher value="Charité"/>
   <contact>
     <name value="Charité"/>
@@ -27,7 +27,7 @@
     </extension>
     <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
     <packageId value="hl7.terminology.r4"/>
-    <version value="5.3.0"/>
+    <version value="5.5.0"/>
   </dependsOn>
   <dependsOn id="hl7ext">
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">

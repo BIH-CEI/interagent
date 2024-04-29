@@ -3,12 +3,12 @@
   "id" : "InteragentActivityDefinition1",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ActivityDefinition</b><a name=\"InteragentActivityDefinition1\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ActivityDefinition &quot;InteragentActivityDefinition1&quot; </p></div><p><b>url</b>: <code>https://gb-best-media.charite.de/ActivityDefinition/InteragentActivityDefinition1</code></p><p><b>version</b>: 0.1.0</p><p><b>status</b>: draft</p><p><b>date</b>: 2024-02-28 14:06:11+0000</p><p><b>publisher</b>: Charité</p><p><b>contact</b>: Charité: <a href=\"https://www.charite.de/\">https://www.charite.de/</a></p><p><b>code</b>: Assessment using obligatory exercise questionnaire (procedure) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#445793001)</span></p><p><b>intent</b>: proposal</p></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ActivityDefinition</b><a name=\"InteragentActivityDefinition1\"> </a><a name=\"hcInteragentActivityDefinition1\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ActivityDefinition &quot;InteragentActivityDefinition1&quot; </p></div><p><b>url</b>: <code>https://gb-best-media.charite.de/ActivityDefinition/InteragentActivityDefinition1</code></p><p><b>version</b>: 0.1.0</p><p><b>status</b>: draft</p><p><b>date</b>: 2024-04-29 11:45:31+0000</p><p><b>publisher</b>: Charité</p><p><b>contact</b>: Charité: <a href=\"https://www.charite.de/\">https://www.charite.de/</a></p><p><b>code</b>: Assessment using obligatory exercise questionnaire (procedure) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#445793001)</span></p><p><b>intent</b>: proposal</p></div>"
   },
   "url" : "https://gb-best-media.charite.de/ActivityDefinition/InteragentActivityDefinition1",
   "version" : "0.1.0",
   "status" : "draft",
-  "date" : "2024-02-28T14:06:11+00:00",
+  "date" : "2024-04-29T11:45:31+00:00",
   "publisher" : "Charité",
   "contact" : [{
     "name" : "Charité",
