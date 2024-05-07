@@ -1,1 +1,2 @@
 URL,Version,Status,OIDs,Name,Title,Descriptino,Used
+http://hl7.org/fhir/quantity-comparator,4.0.1,active,"2.16.840.1.113883.4.642.4.60",QuantityComparator,QuantityComparator,"How the Quantity should be understood and represented.","ValueSet/quantity-comparator"

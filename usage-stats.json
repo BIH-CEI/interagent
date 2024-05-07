@@ -4,6 +4,27 @@
   "fhirVersion": "4.0.1",
   "extensions": [
     {
+      "url": "https://gb-best-media.charite.de/StructureDefinition/answer-switch-rate",
+      "title": "Answer Switch Rate",
+      "types": [
+        "integer"
+      ]
+    },
+    {
+      "url": "https://gb-best-media.charite.de/StructureDefinition/answering-time",
+      "title": "Answer Time",
+      "types": [
+        "Quantity",
+        "string",
+        "Extension",
+        "decimal",
+        "code",
+        "string",
+        "uri",
+        "code"
+      ]
+    },
+    {
       "url": "https://gb-best-media.charite.de/StructureDefinition/correct-answers",
       "title": "Correct Answers",
       "types": [
@@ -13,6 +34,12 @@
   ],
   "profiles": {},
   "usage": {
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
+      "StructureDefinition.snapshot.element"
+    ],
     "http://hl7.org/fhir/StructureDefinition/ordinalValue": [
       "Goal.description.coding",
       "Observation.component.code.coding",

@@ -9,7 +9,7 @@
   <version value="0.1.0"/>
   <name value="Interagent"/>
   <status value="draft"/>
-  <date value="2024-04-29T11:45:31+00:00"/>
+  <date value="2024-05-07T10:07:31+00:00"/>
   <publisher value="Charité"/>
   <contact>
     <name value="Charité"/>
@@ -35,7 +35,7 @@
     </extension>
     <uri value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
     <packageId value="hl7.fhir.uv.extensions.r4"/>
-    <version value="1.0.0"/>
+    <version value="5.1.0"/>
   </dependsOn>
   <definition>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -473,6 +473,28 @@
       <name value="Akromioklavikulargelenk"/>
       <description value="So sehen Multiple Choice Fragen aus: Dies ist die Vignette der Multiple choice Frage.  Sie kann sogar aufzählungen enthalten Zwei SchulterMM  Quelle: Atlas Prometheus"/>
       <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/answer-switch-rate"/>
+      </reference>
+      <name value="Answer Switch Rate"/>
+      <description value="Extension, um die Häufigkeit der Antwortwechsel im Questionnaire-Response anzugeben"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/answering-time"/>
+      </reference>
+      <name value="Answer Time"/>
+      <description value="Extension, um die Antwortzeit in Sekunden im Questionnaire-Response anzugeben"/>
+      <exampleBoolean value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

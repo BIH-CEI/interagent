@@ -1,9 +1,9 @@
 Interagent : Validation Results
 =========================================
 
-err = 10, warn = 10, info = 12
+err = 10, warn = 12, info = 10
 IG Publisher Version: 1.6.6
-Generated Mon Apr 29 11:45:59 UTC 2024. FHIR version 4.0.1 for interagent#0.1.0 (canonical = https://gb-best-media.charite.de)
+Generated Tue May 07 10:08:02 UTC 2024. FHIR version 4.0.1 for interagent#0.1.0 (canonical = https://gb-best-media.charite.de)
  Build Errors : 5 / 4 / 0
  /github/workspace/fsh-generated/resources/ActivityDefinition-InteragentActivityDefinition1 : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/ActivityDefinition-InteragentActivityDefinition2 : 0 / 0 / 3
@@ -19,10 +19,12 @@ Generated Mon Apr 29 11:45:59 UTC 2024. FHIR version 4.0.1 for interagent#0.1.0 
  /github/workspace/fsh-generated/resources/Observation-InteragentObservationCompoundScore1 : 0 / 2 / 2
  /github/workspace/fsh-generated/resources/Observation-InteragentObservationCompoundScore2 : 0 / 2 / 2
  /github/workspace/fsh-generated/resources/Patient-StudentExample : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire1 : 0 / 0 / 3
- /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire2 : 0 / 0 / 3
+ /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire1 : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire2 : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/QuestionnaireResponse-InteragentQuestionnaireResponse1 : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/QuestionnaireResponse-InteragentQuestionnaireResponse2 : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/StructureDefinition-answer-switch-rate : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-answering-time : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-correct-answers : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Task-Task1 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Task-Task2 : 0 / 0 / 1
@@ -75,15 +77,17 @@ WARNING: Observation/InteragentObservationCompoundScore2: Observation: Best Prac
 WARNING: Observation/InteragentObservationCompoundScore2: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
 == fsh-generated/resources/Patient-StudentExample.json ==
 == fsh-generated/resources/Questionnaire-Questionnaire1.json ==
-INFORMATION: Questionnaire/Questionnaire1: Questionnaire.item[0].item[0].extension[0].value.ofType(CodeableConcept): Reference to draft CodeSystem http://hl7.org/fhir/questionnaire-item-control|4.0.1
 INFORMATION: Resource: This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/Questionnaire-Questionnaire2.json ==
-INFORMATION: Questionnaire/Questionnaire2: Questionnaire.item[0].item[0].extension[0].value.ofType(CodeableConcept): Reference to draft CodeSystem http://hl7.org/fhir/questionnaire-item-control|4.0.1
 INFORMATION: Resource: This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/QuestionnaireResponse-InteragentQuestionnaireResponse1.json ==
 INFORMATION: QuestionnaireResponse/InteragentQuestionnaireResponse1: QuestionnaireResponse: No questionnaire is identified, so no validation can be performed against the base questionnaire
 == fsh-generated/resources/QuestionnaireResponse-InteragentQuestionnaireResponse2.json ==
 INFORMATION: QuestionnaireResponse/InteragentQuestionnaireResponse2: QuestionnaireResponse: No questionnaire is identified, so no validation can be performed against the base questionnaire
+== fsh-generated/resources/StructureDefinition-answer-switch-rate.json ==
+WARNING: StructureDefinition.where(url = 'https://gb-best-media.charite.de/StructureDefinition/answer-switch-rate'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-answering-time.json ==
+WARNING: StructureDefinition.where(url = 'https://gb-best-media.charite.de/StructureDefinition/answering-time'): The Implementation Guide contains no examples for this extension
 == fsh-generated/resources/StructureDefinition-correct-answers.json ==
 == fsh-generated/resources/Task-Task1.json ==
 == fsh-generated/resources/Task-Task2.json ==

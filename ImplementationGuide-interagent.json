@@ -9,7 +9,7 @@
   "version" : "0.1.0",
   "name" : "Interagent",
   "status" : "draft",
-  "date" : "2024-04-29T11:45:31+00:00",
+  "date" : "2024-05-07T10:07:31+00:00",
   "publisher" : "Charité",
   "contact" : [{
     "name" : "Charité",
@@ -39,7 +39,7 @@
     }],
     "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
     "packageId" : "hl7.fhir.uv.extensions.r4",
-    "version" : "1.0.0"
+    "version" : "5.1.0"
   }],
   "definition" : {
     "extension" : [{
@@ -631,6 +631,30 @@
       "name" : "Akromioklavikulargelenk",
       "description" : "So sehen Multiple Choice Fragen aus: Dies ist die Vignette der Multiple choice Frage.  Sie kann sogar aufzählungen enthalten Zwei SchulterMM  Quelle: Atlas Prometheus",
       "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/answer-switch-rate"
+      },
+      "name" : "Answer Switch Rate",
+      "description" : "Extension, um die Häufigkeit der Antwortwechsel im Questionnaire-Response anzugeben",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/answering-time"
+      },
+      "name" : "Answer Time",
+      "description" : "Extension, um die Antwortzeit in Sekunden im Questionnaire-Response anzugeben",
+      "exampleBoolean" : false
     },
     {
       "extension" : [{

@@ -31,6 +31,20 @@
     "version" : "0.1.0"
   },
   {
+    "id" : "answer-switch-rate",
+    "type" : "StructureDefinition",
+    "url" : "https://gb-best-media.charite.de/StructureDefinition/answer-switch-rate",
+    "version" : "0.1.0",
+    "name" : "AnswerSwitchRate"
+  },
+  {
+    "id" : "answering-time",
+    "type" : "StructureDefinition",
+    "url" : "https://gb-best-media.charite.de/StructureDefinition/answering-time",
+    "version" : "0.1.0",
+    "name" : "AnsweringTime"
+  },
+  {
     "id" : "correct-answers",
     "type" : "StructureDefinition",
     "url" : "https://gb-best-media.charite.de/StructureDefinition/correct-answers",

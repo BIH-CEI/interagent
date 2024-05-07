@@ -32,12 +32,12 @@ Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not
 /github/workspace/fsh-generated/resources/Observation-InteragentObservationCompoundScore2.json: line 13, col 4, Info - A definition for CodeSystem 'http://terminology.hl7.org/CodeSystem/umls' could not be found, so the code cannot be validated (NOTFOUND)
 /github/workspace/fsh-generated/resources/Observation-InteragentObservationCompoundScore2.json: line 1, col 2, Warning - Best Practice Recommendation: In general, all observations should have a performer (INVALID)
 /github/workspace/fsh-generated/resources/Observation-InteragentObservationCompoundScore2.json: line 1, col 2, Warning - Best Practice Recommendation: In general, all observations should have an effective[x] () (INVALID)
-/github/workspace/fsh-generated/resources/Questionnaire-Questionnaire1.json: line 1, col 11077, Info - Reference to draft CodeSystem http://hl7.org/fhir/questionnaire-item-control|4.0.1 (BUSINESSRULE)
 /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire1.json: line 0, col 0, Info - This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root) (BUSINESSRULE)
-/github/workspace/fsh-generated/resources/Questionnaire-Questionnaire2.json: line 1, col 10515, Info - Reference to draft CodeSystem http://hl7.org/fhir/questionnaire-item-control|4.0.1 (BUSINESSRULE)
 /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire2.json: line 0, col 0, Info - This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root) (BUSINESSRULE)
 /github/workspace/fsh-generated/resources/QuestionnaireResponse-InteragentQuestionnaireResponse1.json: line 1, col 2, Info - No questionnaire is identified, so no validation can be performed against the base questionnaire (REQUIRED)
 /github/workspace/fsh-generated/resources/QuestionnaireResponse-InteragentQuestionnaireResponse2.json: line 1, col 2, Info - No questionnaire is identified, so no validation can be performed against the base questionnaire (REQUIRED)
+/github/workspace/fsh-generated/resources/StructureDefinition-answer-switch-rate.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this extension (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/StructureDefinition-answering-time.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this extension (BUSINESSRULE)
 
-err = 10, warn = 10, info = 12
+err = 10, warn = 12, info = 10
 IG Publisher Version: 1.6.6
